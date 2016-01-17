@@ -1,3 +1,15 @@
 [submodule "LMS"]
 	path = LMS
 	url = https://github.com/Phibedy/LMS
+[submodule "external/libraries/imaging"]
+	path = external/libraries/imaging
+	url = git@github.com:lms-org/imaging.git
+[submodule "external/libraries/math_lib"]
+	path = external/libraries/math_lib
+	url = git@github.com:lms-org/math_lib.git
+[submodule "external/modules/sdl_image_renderer"]
+	path = external/modules/sdl_image_renderer
+	url = git@github.com:lms-org/sdl_image_renderer.git
+[submodule "external/services/sdl_service"]
+	path = external/services/sdl_service
+	url = git@github.com:lms-org/sdl_service.git

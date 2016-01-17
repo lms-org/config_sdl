@@ -1,0 +1,18 @@
+<framework>
+    <execution>
+        <clock sleep="true" unit="hz" value="60" />
+    </execution>
+    <modulesToEnable>
+        <module>test_image_generator</module>
+        <module>sdl_image_renderer</module>
+    </modulesToEnable>
+    <service>
+        <name>sdl_service</name>
+    </service>
+    <module>
+        <name>test_image_generator</name>
+    </module>
+    <module>
+        <name>sdl_image_renderer</name>
+    </module>
+</framework>
