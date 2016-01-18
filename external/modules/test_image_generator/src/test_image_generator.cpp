@@ -21,6 +21,10 @@ bool TestImageGenerator::cycle() {
     case 1:
         g.setColor(lms::imaging::red);
         g.fillRect(640-pos, 10, 200, 200);
+
+        for(std::string const& content : messaging()->receive("nav")) {
+            logger.info() << content;
+        }
         break;
     case 2:
         g.setColor(lms::imaging::blue);
